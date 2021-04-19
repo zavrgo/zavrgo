@@ -5,6 +5,7 @@ img{
 }
 div{
 background-color: darkmagenta;
+vertical-align: top;
 margin: 50px;
 width: 40%;
 display: inline-block;
@@ -34,4 +35,9 @@ transition: 0.5s;
 a:hover{
 color: rgba(0,0,0,0.7);
 transform: scale(1.05) translateZ(0);
+}
+p{
+    font-family: sans-serif;
+    padding: 0% 20px;
+    text-align: left;
 }
